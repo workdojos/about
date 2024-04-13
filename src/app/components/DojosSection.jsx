@@ -9,7 +9,7 @@ const dojosData = [
     id: 1,
     title: "Affiliate site",
     description: "Check out an easy way to save money on tours and learn about open-source tech around the world.",
-    image: "/images/projects/websites.webp",
+    image: "/images/projects/travel.webp",
     tag: ["All", "Websites"],
     gitUrl: "https://TravelAgent.Live",
     previewUrl: "/",
