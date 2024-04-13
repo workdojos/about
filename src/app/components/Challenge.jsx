@@ -78,17 +78,6 @@ const TAB_DATA = [
       </ul>
       ),
   },  
-    {
-      title: "Costs",
-      id: "costs",
-      content: (
-        <ul className="list-disc pl-2">
-          <li>Completely free for 60 days (we subsidize 100% of your server costs)</li>
-          <li>After 60 days:  $7/mo (4-core CPU, 8GB RAM, 50GB storage)</li>
-          <li>Try risk-free and have fun with it!</li>
-        </ul>
-      ),
-    },
 
 ];
 
@@ -142,13 +131,6 @@ const AboutSection = () => {
             >
               {" "}
               The Future{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("costs")}
-              active={tab === "costs"}
-            >
-              {" "}
-              Costs{" "}
             </TabButton>
           </div>
           <div className="mt-8">

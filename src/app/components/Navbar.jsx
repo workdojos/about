@@ -8,11 +8,24 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "About",
-    path: "http://zookeepers.workmates.live/#about",
+    path: "http://home.workdojos.com/#about",
   },
   {
-    title: "Resources",
-    path: "http://zookeepers.workmates.live/#resources",
+    title: "Grow Your Business",
+    path: "http://home.workdojos.com/#business",
+  },
+  
+  {
+    title: "Marketing",
+    path: "http://home.workdojos.com/#customers",
+  },
+  {
+    title: "Health",
+    path: "http://home.workdojos.com/#health",
+  },
+  {
+    title: "Wisdom",
+    path: "http://home.workdojos.com/#knowledge",
   },
   {
     title: "Pricing",
@@ -20,7 +33,7 @@ const navLinks = [
   },
   {
     title: "Contact",
-    path: "http://zookeepers.workmates.live/#contact",
+    path: "http://home.workdojos.com/#contact",
   },
 ];
 
@@ -34,7 +47,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          Hive
+          WorkDojos
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

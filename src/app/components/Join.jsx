@@ -17,14 +17,17 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Are{" "}
+              Dojos{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "You Ready?",
+                "Are",
                 1000,
-
+                "You",
+                1000,
+                "Ready?",
+                1000,
 
                 
               ]}
@@ -34,23 +37,15 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Sign up for free and prepare for lift-off.
-          </p>
+            Sign up for free and prepare for lift-off.          </p>
           <div>
             <Link
-              href="https://blog.workdojos.com/60-day-self-hosting-challenge"
+              href="https://blog.workdojos.com/#/portal/signup"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Take the Challenge
             </Link>
-            <Link
-              href="#contact"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Have Questions?
-              </span>
-            </Link>
+
           </div>
         </motion.div>
         <motion.div
@@ -63,7 +58,7 @@ const HeroSection = () => {
             <Image
               style={{borderRadius: 20}}
               src="/images/winner.gif"
-              alt="A beautiful Swedish woman holding a trophy"
+              alt="A vintage tv depicting a tropical paradise"
               className=".img-container"
               width={307}
               height={307}

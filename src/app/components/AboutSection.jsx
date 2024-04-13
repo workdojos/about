@@ -92,15 +92,6 @@ const TAB_DATA = [
         </ul>
       ),
     },
-    {
-      title: "Costs",
-      id: "costs",
-      content: (
-        <ul className="list-disc pl-2">
-          <li>$7/mo (4-core CPU, 8GB RAM, 50GB storage)</li>
-        </ul>
-      ),
-    },
 
 ];
 
@@ -160,13 +151,6 @@ const AboutSection = () => {
             >
               {" "}
               Vision{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("costs")}
-              active={tab === "costs"}
-            >
-              {" "}
-              Costs{" "}
             </TabButton>
           </div>
           <div className="mt-8">
