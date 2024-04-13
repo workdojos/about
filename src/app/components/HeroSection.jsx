@@ -59,7 +59,7 @@ const HeroSection = () => {
             <Image
               style={{borderRadius: 20}}
               src="/images/tv.gif"
-              alt="A vintage tv depicting a tropical paradise"
+              alt="A vintage tv depicting a old vintage tech"
               className=".img-container"
               width={307}
               height={307}

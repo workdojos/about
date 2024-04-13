@@ -75,17 +75,7 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  {
-    title: "Team",
-    id: "team",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Jay Clark - Founder</li>
-        <li>Johannes Heinrich - CoFounder</li>
-        <li>Josh Browne - Director of Business Development</li>
-      </ul>
-      ),
-  },  
+
     {
       title: "Vision",
       id: "vision",
@@ -147,13 +137,7 @@ const AboutSection = () => {
               {" "}
               Capabilities{" "}
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("team")}
-              active={tab === "team"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
+            
             <TabButton
               selectTab={() => handleTabChange("vision")}
               active={tab === "vision"}
