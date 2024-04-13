@@ -66,7 +66,7 @@ const DojosSection = () => {
     <section id="business">
 
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Grow your Business
+        About Us
       </h2>
       <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         <ProjectTag
