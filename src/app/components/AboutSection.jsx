@@ -15,7 +15,7 @@ const TAB_DATA = [
         <li>Q1 2022 Deployed dashboards for over 200+ professions</li>
         <li>Q2 2022 Grew our subscriber base into triple digits for the first time</li>
         <li>Q4 2022 Started to dabble with AI (GPT 3.5) </li>
-        <li>Q1 2023 Brought the Grand Experiment to an end (it didn't work!)</li>
+        <li>Q1 2023 Brought the Grand Experiment to an end (it did not work!)</li>
         <li>Q1 2023 Introduced a private Matrix server into the mix</li>
         <li>Q2 2023 Introduced conversational AI into the mix</li>
         <li>Q3 2023 Created our private template library (Next.js, React, Hugo, and more)</li>
