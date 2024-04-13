@@ -17,32 +17,19 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Dojos{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Free",
+                "Judy",
                 1000,
-                "Fun",
+                "Web Developer",
                 1000,
-                "Easy",
+                "Mobile Developer",
                 1000,
-                "Are",
+                "UI/UX Designer",
                 1000,
-                "You",
-                1000,
-                "Ready",
-                1000,
-                "To",
-                1000,
-                "Take",
-                1000,
-                "The",
-                1000,
-                "...",
-                1000,
-                
               ]}
               wrapper="span"
               speed={50}
@@ -50,25 +37,22 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-<<<<<<< HEAD
-            Take the 60-day self-hosting challenge and behold the many wonders of open-source technology.
-=======
-            The 60-Day Self-Hosting Challenge!
->>>>>>> fb2f328b212e2e1669997e45d1da120c900e36cb
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            voluptuous.
           </p>
           <div>
             <Link
-              href="https://blog.workdojos.com/#/portal/signup"
+              href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              Join for Free
+              Hire Me
             </Link>
             <Link
-              href="#contact"
+              href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                60-Day Self-Hosting Challenge
+                Download CV
               </span>
             </Link>
           </div>
@@ -79,23 +63,13 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="lg:w-[400px] lg:h-[300px] relative ">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              style={{borderRadius: 20}}
-<<<<<<< HEAD
-              src="/images/winner.gif"
-<<<<<<< HEAD
-              alt="A beautiful Asian woman smiling and lighting up"
-=======
-              alt="A beautiful Swedish woman typing"
->>>>>>> 8c8257f6e7c7765a2a3fa7d483d9a8799bf0e5ae
-=======
-              src="/images/sandbox tv.svg"
-              alt="A vintage tv depicting a tropical paradise"
->>>>>>> 2d0463812d371b3918accc9a1accd2618492073b
-              className=".img-container"
-              width={307}
-              height={307}
+              src="/images/hero-image.png"
+              alt="hero image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={300}
+              height={300}
             />
           </div>
         </motion.div>
