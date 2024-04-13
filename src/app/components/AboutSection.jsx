@@ -15,14 +15,12 @@ const TAB_DATA = [
         <li>Q1 2022 Deployed dashboards for over 200+ professions</li>
         <li>Q2 2022 Grew our subscriber base into triple digits for the first time</li>
         <li>Q4 2022 Started to dabble with AI (GPT 3.5) </li>
-        <li>Q1 2023 Brought the Grand Experiment to an end (it did not work!)</li>
         <li>Q1 2023 Introduced a private Matrix server into the mix</li>
         <li>Q2 2023 Introduced conversational AI into the mix</li>
         <li>Q3 2023 Created our private template library (Next.js, React, Hugo, and more)</li>
         <li>Q3 2023 Expanded our library of one-click installs to over 50 open-source apps</li>
         <li>Q4 2023 Expanded our AI repertoire to include self-hosted text-to-speech, image generation, and animation</li>
         <li>Q1 2024 Launched our second Youtube channel for AI animation: @Dojofans</li>
-        <li>Q1 2024 Scaled back operations, consolidated servers but still growing slowly.</li>
       
       </ul>
     ),
@@ -46,10 +44,8 @@ const TAB_DATA = [
         <li>Conversational AI</li>
         <li>Programmatic SMS</li>
         <li>UI/UX Design</li>
-        <li>Web-conferencing</li>
         <li>Team-building</li>
         <li>Community empowerment</li>
-        <li>Building businesses and getting startups off the ground</li>
         <li></li>
 
 
@@ -73,7 +69,7 @@ const TAB_DATA = [
         <li>Nextcloud</li>
         <li>Immich</li>
         <li>Matrix Synapse</li>
-        <li>Dashboards galore</li>
+        <li>5 different flavors of dashboards</li>
         <li>ChatGPT integrations</li>
         <li>100&apos;s more</li>
       </ul>
@@ -120,7 +116,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/neon2.webp" width={500} height={500}   />
+        <Image style={{ borderRadius: 16}}src="/images/neon3.webp" width={500} height={500}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">A Digital Home Away From Home</h2>
 
