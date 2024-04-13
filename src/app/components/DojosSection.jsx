@@ -34,11 +34,11 @@ const dojosData = [
   },
   {
     id: 9,
-    title: "Sign-Up",
-    description: "The amound of money you can save by self-hosting your own tech stack is through the roof!",
-    image: "/images/projects/signup.webp",
-    tag: ["All", "Admin"],
-    gitUrl: "https://blog.workdojos.com/#/portal/signup",
+    title: "Rocket.chat",
+    description: "The amound of money you can save by self-hosting your own tech stack is amazing, chat with us!",
+    image: "/images/projects/signup2.webp",
+    tag: ["All", "Chat"],
+    gitUrl: "https://chat.workmates.live",
     previewUrl: "/",
   },
   

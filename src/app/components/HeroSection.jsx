@@ -58,7 +58,7 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/sandbox tv.svg"
+              src="/images/dojofans.gif"
               alt="A vintage tv depicting a tropical paradise"
               className=".img-container"
               width={307}
