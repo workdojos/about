@@ -61,8 +61,8 @@ const HeroSection = () => {
               src="/images/tv6.gif"
               alt="A vintage tv with an old movie"
               className=".img-container"
-              width={307}
-              height={307}
+              width={600}
+              height={600}
             />
           </div>
         </motion.div>
