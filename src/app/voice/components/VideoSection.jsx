@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
+
 const dojosData = [
   {
     id: 1,
@@ -163,6 +164,7 @@ const DojosSection = () => {
     </section>
 
   );
-};
 
+
+}
 export default DojosSection;

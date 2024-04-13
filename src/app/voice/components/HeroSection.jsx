@@ -24,24 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "Free",
                 1000,
-                "Fun",
+                "Open-Source",
                 1000,
                 "Easy",
                 1000,
-                "Are",
-                1000,
-                "You",
-                1000,
-                "Ready",
-                1000,
-                "To",
-                1000,
-                "Take",
-                1000,
-                "The",
-                1000,
-                "...",
-                1000,
+
                 
               ]}
               wrapper="span"
@@ -50,11 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-<<<<<<< HEAD
-            Take the 60-day self-hosting challenge and behold the many wonders of open-source technology.
-=======
-            The 60-Day Self-Hosting Challenge!
->>>>>>> fb2f328b212e2e1669997e45d1da120c900e36cb
+            Take the first step into everything open-source.  We will show you how.  For free.
           </p>
           <div>
             <Link
@@ -82,17 +65,8 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-<<<<<<< HEAD
-              src="/images/winner.gif"
-<<<<<<< HEAD
-              alt="A beautiful Asian woman smiling and lighting up"
-=======
+              src="/images/typeX4.gif"
               alt="A beautiful Swedish woman typing"
->>>>>>> 8c8257f6e7c7765a2a3fa7d483d9a8799bf0e5ae
-=======
-              src="/images/sandbox tv.svg"
-              alt="A vintage tv depicting a tropical paradise"
->>>>>>> 2d0463812d371b3918accc9a1accd2618492073b
               className=".img-container"
               width={307}
               height={307}
