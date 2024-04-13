@@ -58,11 +58,11 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/tv6.gif"
+              src="/images/tvnew2.gif"
               alt="A vintage tv with an old movie"
               className=".img-container"
-              width={600}
-              height={600}
+              width={480}
+              height={480}
             />
           </div>
         </motion.div>

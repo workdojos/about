@@ -41,6 +41,24 @@ const dojosData = [
     gitUrl: "https://chat.workmates.live",
     previewUrl: "/",
   },
+  {
+    id: 5,
+    title: "Youtube",
+    description: "Check out Youtube channgel built with AI.",
+    image: "images/projects/blog.webp",
+    tag: ["All", "AI"],
+    gitUrl: "https://youtube.com/@dojofans",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "",
+    description: "Check out over 60+ self-hosted dashboards (get yours for free by signing up!.",
+    image: "/images/projects/signup2.webp",
+    tag: ["All", "Dashboards"],
+    gitUrl: "https://admins.workdojos.com",
+    previewUrl: "/",
+  },
   
 ];
 
@@ -84,8 +102,8 @@ const DojosSection = () => {
         
         <ProjectTag
           onClick={handleTagChange}
-          name="Automation"
-          isSelected={tag === "Automation"}
+          name="Dashboards"
+          isSelected={tag === "Dashboards"}
         />
         <ProjectTag
           onClick={handleTagChange}
