@@ -10,7 +10,8 @@ import DojosSection2 from "./components/DojosSection2";
 import DojosSection3 from "./components/DojosSection3";
 import DojosSection4 from "./components/DojosSection4";
 import Challenge from "./components/Challenge";
-
+import deployingNextjs from "@/videos/deploying-next.js-to-vercel.mp4";
+import Video from 'next-video';
 
 
 
