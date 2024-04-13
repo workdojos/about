@@ -5,39 +5,52 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Features",
-    id: "features",
+    title: "History",
+    id: "history",
     content: (
       <ul className="list-disc pl-2">
-        <li>Website, blog, chat app, wiki included for free</li>
-        <li>Industry-Specific Insights</li>
-        <li>Workmates hiring hives</li>
-        <li>Job scraping</li>
-        <li>AI content creation</li>
-        <li>AI cover letter generation</li>
-        <li>Automation</li>
-        <li>Chat</li>
-        <li>Docker</li>
-        <li>Templates (Next.js, React, Hugo, and more)</li>
+        <li>Q2 2021 The Grand Experiment (200+ Wordpress sites deployed the largest .Live Network on the Web</li>
+        <li>Q3 2021 Deployed Workmates Rocket.chat server with a room for every profession</li>
+        <li>Q4 2021 Deployed Ghost blog with payments and newsletters built in</li>
+        <li>Q1 2022 Deployed dashboards for over 200+ professions</li>
+        <li>Q2 2022 Grew our subscriber base into triple digits for the first time</li>
+        <li>Q4 2022 Started to dabble with AI (GPT 3.5) </li>
+        <li>Q1 2023 Brought the Grand Experiment to an end (it didn't work!)</li>
+        <li>Q1 2023 Introduced a private Matrix server into the mix</li>
+        <li>Q2 2023 Introduced conversational AI into the mix</li>
+        <li>Q3 2023 Created our private template library (Next.js, React, Hugo, and more)</li>
+        <li>Q3 2023 Expanded our library of one-click installs to over 50 open-source apps</li>
+        <li>Q4 2023 Expanded our AI repertoire to include self-hosted text-to-speech, image generation, and animation</li>
+        <li>Q1 2024 Launched our second Youtube channel for AI animation: @Dojofans</li>
+        <li>Q1 2024 Scaled back operations, consolidated servers but still growing slowly.</li>
+      
       </ul>
     ),
   },
   {
-    title: "uses",
-    id: "uses",
+    title: "Capabilities",
+    id: "capabilities",
     content: (
       <ul className="list-disc pl-2">
         
         
-        <li>Build a website (included)</li>
-        <li>Start a blog (included)</li>
-        <li>Start a social network (included)</li>
-        <li>Spin up a dashboard (included)</li>
-        <li>Deliver online courses (included)</li>
-        <li>Share files securely (included)</li>
-        <li>Set up a family media server</li>
-        <li>Create a development environment</li>
-        <li>Automate content creation with AI</li>
+        <li>AI automation</li>
+        <li>Self-hosting apps and micro-services</li>
+        <li>Enabling businesses to run a single server for less than 15 bucks a month for 100s of users</li>
+        <li>Training</li>
+        <li>Learning & Development</li>
+        <li>Technical support</li>
+        <li>AI image creation, text-to-speech, and animation</li>
+        <li>DevOps</li>
+        <li>Web-hosting</li>
+        <li>Conversational AI</li>
+        <li>Programmatic SMS</li>
+        <li>UI/UX Design</li>
+        <li>Web-conferencing</li>
+        <li>Team-building</li>
+        <li>Community empowerment</li>
+        <li>Building businesses and getting startups off the ground</li>
+        <li></li>
 
 
       </ul>
@@ -58,22 +71,22 @@ const TAB_DATA = [
         <li>Databag</li>
         <li>Moodle</li>
         <li>Nextcloud</li>
+        <li>Immich</li>
+        <li>Matrix Synapse</li>
+        <li>Dashboards galore</li>
+        <li>ChatGPT integrations</li>
         <li>100&apos;s more</li>
       </ul>
     ),
   },
   {
-    title: "Skills",
-    id: "skills",
+    title: "Team",
+    id: "team",
     content: (
       <ul className="list-disc pl-2">
-        <li>System administration</li>
-        <li>Web development</li>
-        <li>UI/UX design</li>
-        <li>Automation</li>
-        <li>Digital Marketing</li>
-        <li>Teaching</li>
-        <li>AI</li>
+        <li>Jay Clark - Founder</li>
+        <li>Johannes Heinrich - CoFounder</li>
+        <li>Josh Browne - Director of Business Development</li>
       </ul>
       ),
   },  
@@ -96,7 +109,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("features");
+  const [tab, setTab] = useState("history");
   const [isPending, startTransition] = useTransition();
   const handleTabChange = (id) => {
     startTransition(() => {
@@ -107,7 +120,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/neon.webp" width={500} height={500}   />
+        <Image style={{ borderRadius: 16}}src="/images/neon2.webp" width={500} height={500}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">A Digital Home Away From Home</h2>
 
@@ -118,11 +131,11 @@ const AboutSection = () => {
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
-              selectTab={() => handleTabChange("features")}
-              active={tab === "features"}
+              selectTab={() => handleTabChange("history")}
+              active={tab === "hisotry"}
             >
               {" "}
-              Features{" "}
+              History{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("apps")}
@@ -132,15 +145,15 @@ const AboutSection = () => {
               Apps{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("uses")}
-              active={tab === "uses"}
+              selectTab={() => handleTabChange("capabilities")}
+              active={tab === "capabilities"}
             >
               {" "}
-              Uses{" "}
+              Capabilities{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("team")}
+              active={tab === "team"}
             >
               {" "}
               Skills{" "}

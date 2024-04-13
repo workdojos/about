@@ -7,38 +7,38 @@ import { motion, useInView } from "framer-motion";
 const dojosData = [
   {
     id: 1,
-    title: "Account Executive",
-    description: "As an Account Executive, leverage open-source CRM software to seamlessly manage client relationships, track sales activities, and analyze data, enhancing sales effectiveness and productivity.",
-    image: "/images/projects/accountexecutive.webp",
-    tag: ["All", "Sales"],
-    gitUrl: "https://AccountExecutive.workdojos.com",
+    title: "Affiliate site",
+    description: "Check out an easy way to save money on tours and learn about open-source tech around the world.",
+    image: "/images/projects/websites.webp",
+    tag: ["All", "Websites"],
+    gitUrl: "https://TravelAgent.Live",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Administrators",
-    description: "Open-source technology can be used by administrators to create a collaborative task management platform, allowing teams to efficiently coordinate and track their progress while fostering a sense of shared responsibility and engagement.",
-    image: "/images/projects/administrator.webp",
-    tag: ["All", "Admin"],
-    gitUrl: "https://Administrators.workdojos.com",
+    title: "WorkDojos",
+    description: "Check out our site built with Hugo with over 10k+ pasges of content, all hosted for free!",
+    image: "/images/projects/workdojos.webp",
+    tag: ["All", "Websites"],
+    gitUrl: "https://workdojos.com",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "Digital Marketers",
-    description: "Utilizing open-source social media analytics tools, digital marketers can gain valuable insights on audience behavior, optimize campaigns, and measure the impact of their strategies, all while saving costs and fostering collaboration within the marketing team.",
-    image: "images/projects/digitalmarketers.webp",
-    tag: ["All", "Marketing"],
-    gitUrl: "https://DigitalMarketers.workdojos.com",
+    title: "Blog",
+    description: "Check out our Ghost blog (and save a whopping $25/mo by self-hosting it for FREE).",
+    image: "images/projects/blog.webp",
+    tag: ["All", "Websites"],
+    gitUrl: "https://blog.workdojos.com",
     previewUrl: "/",
   },
   {
     id: 9,
-    title: "Project Managers",
-    description: "Open-source project management software provides collaborative task tracking and real-time updates, empowering project managers to efficiently coordinate teams and streamline project workflows.",
-    image: "/images/projects/projectmanagers.webp",
+    title: "Sign-Up",
+    description: "The amound of money you can save by self-hosting your own tech stack is through the roof!",
+    image: "/images/projects/signup.webp",
     tag: ["All", "Admin"],
-    gitUrl: "https://ProjectManagers.workdojos.com",
+    gitUrl: "https://blog.workdojos.com/#/portal/signup",
     previewUrl: "/",
   },
   
@@ -71,28 +71,30 @@ const DojosSection = () => {
       <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         <ProjectTag
           onClick={handleTagChange}
-          name="Marketing"
-          isSelected={tag === "Marketing"}
+          name="Websites"
+          isSelected={tag === "Websites"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Admin"
-          isSelected={tag === "Admin"}
+          name="Chat"
+          isSelected={tag === "Chat"}
         />
         </div>
         <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         
         <ProjectTag
           onClick={handleTagChange}
-          name="Comms"
-          isSelected={tag === "Communications"}
+          name="Automation"
+          isSelected={tag === "Automation"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Sales"
-          isSelected={tag === "Sales"}
+          name="AI"
+          isSelected={tag === "AI"}
         />
         </div>
+
+        
   
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

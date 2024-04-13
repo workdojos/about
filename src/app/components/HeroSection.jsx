@@ -22,11 +22,11 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Free",
+                "Passionate",
                 1000,
-                "Fun",
+                "Driven",
                 1000,
-                "Easy",
+                "Easy-Going",
                 1000,
 
                 
@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the 60-day self-hosting challenge and behold the many wonders of open-source technology.
+            We are self-hosters and tech enthusiasts who love to help others reign in their stack with free and open-source technology.
           </p>
           <div>
             <Link

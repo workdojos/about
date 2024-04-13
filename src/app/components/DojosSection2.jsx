@@ -7,38 +7,38 @@ import { motion, useInView } from "framer-motion";
 const dojosData = [
   {
     id: 1,
-    title: "Animators",
+    title: "SadTalker",
     description: "Use open-source animation software like Blender to create stunning 3D animations and collaborate with a global community of animators, accessing a vast library of free assets, plugins, and tutorials to bring your imagination to life.",
     image: "/images/projects/animators.webp",
-    tag: ["All", "Design"],
-    gitUrl: "https://Animators.workdojos.com",
+    tag: ["All", "Animation"],
+    gitUrl: "https://youtube.com/@dojofans",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "Bartenders",
+    title: "Tortoise",
     description: "Open-source technology can be used by bartenders to create a community-driven cocktail recipe database, allowing them to access and share innovative drink recipes with fellow mixologists for endless creativity and collaboration.",
     image: "/images/projects/bartenders.webp",
-    tag: ["All", "Hospitality"],
-    gitUrl: "https://Bartenders.workdojos.com",
+    tag: ["All", "Text-to-Speech"],
+    gitUrl: "https://youtube.com/@dojofans",
     previewUrl: "/",
   },
   {
     id: 7,
-    title: "Exhibitionists",
+    title: "Stable Diffusion",
     description: "Open-source augmented reality (AR) software enables exhibitionists to create immersive and interactive art installations, captivating audiences with personalized experiences while fostering collaboration and creativity within the community.",
     image: "/images/projects/exhibitionist.webp",
-    tag: ["All", "The Arts"],
-    gitUrl: "https://Exhibitionist.workdojos.com",
+    tag: ["All", "Images"],
+    gitUrl: "https://youtube.com/@dojofans",
     previewUrl: "/",
   },
   {
     id: 9,
-    title: "Graphic Designers",
+    title: "Videos",
     description: "Open-source technology can enable graphic designers to collaborate and experiment with cutting-edge design tools and frameworks, fostering a vibrant community for sharing resources, inspiration, and creative solutions.",
     image: "/images/projects/graphicdesigner.webp",
-    tag: ["All", "Design"],
-    gitUrl: "https://GraphicDesigner.workdojos.com",
+    tag: ["All", "Youtube"],
+    gitUrl: "https://youtube.com/@dojofans",
     previewUrl: "/",
   },
   {
@@ -92,31 +92,31 @@ const DojosSection = () => {
     <section id="customers">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Wow your Customers
+        Artificial Intelligence
       </h2>
       <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         <ProjectTag
           onClick={handleTagChange}
-          name="Design"
-          isSelected={tag === "Design"}
+          name="Images"
+          isSelected={tag === "Images"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Entertainment"
-          isSelected={tag === "Entertainment"}
+          name="Text-to-Speech"
+          isSelected={tag === "Text-to-Speech"}
         />
         </div>
         <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         
         <ProjectTag
           onClick={handleTagChange}
-          name="Hospitality"
-          isSelected={tag === "Hospitality"}
+          name="Animation"
+          isSelected={tag === "Animation"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="The Arts"
-          isSelected={tag === "The Arts"}
+          name="Youtube"
+          isSelected={tag === "Youtube"}
         />
         </div>
   
