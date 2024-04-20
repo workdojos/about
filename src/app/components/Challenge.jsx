@@ -94,7 +94,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-6 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/spark2.gif" width={307} height={307}   />
+        <Image style={{ borderRadius: 16}}src="/images/flick.gif" width={307} height={307}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">The 60-Day Self-Hosting Challenge</h2>
 

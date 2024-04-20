@@ -23,6 +23,15 @@ const dojosData = [
     gitUrl: "https://www.linkedin.com/in/dojos/",
     previewUrl: "/",
   },
+  {
+    id: 3,
+    title: "Jess",
+    description: "I'm from Texas and love learning about all things digital marketing.",
+    image: "/images/projects/jess.webp",
+    tag: ["All", "Founders"],
+    gitUrl: "https://www.linkedin.com/in/dojos/",
+    previewUrl: "/",
+  },
 
 ];
 
