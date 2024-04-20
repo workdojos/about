@@ -48,6 +48,7 @@ const dojosData = [
     image: "images/projects/multi.webp",
     tag: ["All", "AI"],
     gitUrl: "https://youtube.com/@dojofans",
+    
     previewUrl: "/",
   },
   {
