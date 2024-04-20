@@ -11,7 +11,7 @@ const dojosData = [
     description: "On-the-ground experience across 3 continents.  I love to experiment with open-source tech.",
     image: "/images/projects/j.jpg",
     tag: ["All", "Founders"],
-    gitUrl: "https://www.linkedin.com/in/dojos/",
+    gitUrl: "mailto:jay@workmates.live",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const dojosData = [
     description: "SEO expert from Austria.",
     image: "/images/projects/joh.jpg",
     tag: ["All", "Founders"],
-    gitUrl: "https://www.linkedin.com/in/dojos/",
+    gitUrl: "mailto:johannes@workmates.live",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const dojosData = [
     description: "I'm from Texas and love learning about all things digital marketing.",
     image: "/images/projects/jess.webp",
     tag: ["All", "Founders"],
-    gitUrl: "https://www.linkedin.com/in/dojos/",
+    gitUrl: "mailto:jess@workmates.live",
     previewUrl: "/",
   },
 
