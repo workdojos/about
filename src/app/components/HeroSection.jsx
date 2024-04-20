@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Link from "next/link";
+
 
 const HeroSection = () => {
   return (
@@ -40,12 +40,9 @@ const HeroSection = () => {
             We are self-hosters and tech enthusiasts who love to help others reign in their stack with free and open-source technology.
           </p>
           <div>
-            <Link
-              href="https://blog.workdojos.com/#/portal/signup"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-            >
-              Join for Free
-            </Link>
+          <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+      Visit Example.com
+           </a>
 
           </div>
         </motion.div>
