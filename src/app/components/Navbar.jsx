@@ -8,11 +8,11 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "About",
-    path: "http://about.workdojos.com/#about",
+    path: "https://about.workdojos.com/#about",
   },
   {
     title: "Team",
-    path: "http://about.workdojos.com/#team",
+    path: "https://about.workdojos.com/#team",
   },
   
   {
@@ -21,7 +21,7 @@ const navLinks = [
   },
   {
     title: "Contact",
-    path: "http://home.workdojos.com/#contact",
+    path: "https://about.workdojos.com/#contact",
   },
 ];
 
