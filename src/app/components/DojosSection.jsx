@@ -36,7 +36,7 @@ const dojosData = [
     id: 9,
     title: "Rocket.chat",
     description: "The amound of money you can save by self-hosting your own tech stack is amazing, chat with us!",
-    image: "/images/projects/signup2.webp",
+    image: "/images/projects/rc.webp",
     tag: ["All", "Chat"],
     gitUrl: "https://chat.workmates.live",
     previewUrl: "/",
@@ -54,7 +54,7 @@ const dojosData = [
     id: 9,
     title: "",
     description: "Check out over 60+ self-hosted dashboards (get yours for free by signing up!.",
-    image: "/images/projects/signup2.webp",
+    image: "/images/projects/dash.jpg",
     tag: ["All", "Dashboards"],
     gitUrl: "https://admins.workdojos.com",
     previewUrl: "/",
@@ -81,7 +81,7 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="business">
+    <section id="about">
 
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         About Us

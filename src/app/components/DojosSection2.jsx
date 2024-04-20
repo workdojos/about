@@ -7,67 +7,22 @@ import { motion, useInView } from "framer-motion";
 const dojosData = [
   {
     id: 1,
-    title: "SadTalker",
-    description: "Use open-source animation software like Blender to create stunning 3D animations and collaborate with a global community of animators, accessing a vast library of free assets, plugins, and tutorials to bring your imagination to life.",
-    image: "/images/projects/animators.webp",
-    tag: ["All", "Animation"],
-    gitUrl: "https://youtube.com/@dojofans",
+    title: "Jay",
+    description: "On-the-ground experience across 3 continents.  I love to experiment with open-source tech.",
+    image: "/images/projects/j.jpg",
+    tag: ["All", "Founders"],
+    gitUrl: "https://www.linkedin.com/in/dojos/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "Tortoise",
-    description: "Open-source technology can be used by bartenders to create a community-driven cocktail recipe database, allowing them to access and share innovative drink recipes with fellow mixologists for endless creativity and collaboration.",
-    image: "/images/projects/bartenders.webp",
-    tag: ["All", "Text-to-Speech"],
-    gitUrl: "https://youtube.com/@dojofans",
+    title: "Johannes",
+    description: "SEO expert from Austria.",
+    image: "/images/projects/joh.jpg",
+    tag: ["All", "Founders"],
     previewUrl: "/",
   },
-  {
-    id: 7,
-    title: "Stable Diffusion",
-    description: "Open-source augmented reality (AR) software enables exhibitionists to create immersive and interactive art installations, captivating audiences with personalized experiences while fostering collaboration and creativity within the community.",
-    image: "/images/projects/exhibitionist.webp",
-    tag: ["All", "Images"],
-    gitUrl: "https://youtube.com/@dojofans",
-    previewUrl: "/",
-  },
-  {
-    id: 9,
-    title: "Videos",
-    description: "Open-source technology can enable graphic designers to collaborate and experiment with cutting-edge design tools and frameworks, fostering a vibrant community for sharing resources, inspiration, and creative solutions.",
-    image: "/images/projects/graphicdesigner.webp",
-    tag: ["All", "Youtube"],
-    gitUrl: "https://youtube.com/@dojofans",
-    previewUrl: "/",
-  },
-  {
-    id: 10,
-    title: "Jewelers",
-    description: "Use open-source 3D printing software and hardware to create customizable jewelry designs, empowering jewelers to offer unique and personalized pieces to their customers at an affordable cost.",
-    image: "images/projects/jeweler.webp",
-    tag: ["All", "The Arts"],
-    gitUrl: "https://Jeweler.workdojos.com",
-    previewUrl: "/",
-  },
-  {
-    id: 11,
-    title: "Musicians",
-    description: "Create a collaborative open-source platform for actors, directors, and playwrights to share and co-create scripts, allowing for global collaboration and innovation in the world of theater. This platform could also facilitate virtual auditions and rehearsals, making theater accessible to a wider audience and fostering a vibrant online theater community.",
-    image: "/images/projects/musicalartist.webp",
-    tag: ["All", "Entertainment"],
-    gitUrl: "https://MusicalArtist.workdojos.com",
-    previewUrl: "/",
-  },
-  {
-    id: 12,
-    title: "Thespians",
-    description: "Create a collaborative open-source platform for actors, directors, and playwrights to share and co-create scripts, allowing for global collaboration and innovation in the world of theater. This platform could also facilitate virtual auditions and rehearsals, making theater accessible to a wider audience and fostering a vibrant online theater community.",
-    image: "/images/projects/thespian.webp",
-    tag: ["All", "The Arts"],
-    gitUrl: "https://Thespian.workdojos.com",
-    previewUrl: "/",
-  },
+
 ];
 
 const DojosSection = () => {
@@ -89,34 +44,16 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="customers">
+    <section id="team">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Artificial Intelligence
+        Team
       </h2>
       <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         <ProjectTag
           onClick={handleTagChange}
-          name="Images"
+          name="Founders"
           isSelected={tag === "Images"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Text-to-Speech"
-          isSelected={tag === "Text-to-Speech"}
-        />
-        </div>
-        <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
-        
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Animation"
-          isSelected={tag === "Animation"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Youtube"
-          isSelected={tag === "Youtube"}
         />
         </div>
   
