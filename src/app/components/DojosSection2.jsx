@@ -11,7 +11,7 @@ const dojosData = [
     description: "I'm from Chicago and I have on-the-ground experience across 3 continents.  I love to experiment with open-source tech and learn about other cultures.",
     image: "/images/projects/j.jpg",
     tag: ["All", "Founders"],
-    gitUrl: "mailto:jay@workmates.live" target="_blank" rel="noopener noreferrer",
+    gitUrl: "mailto:jay@workmates.live",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const dojosData = [
     description: "I'm from Austria and I love visualizing big ideas through technology and driving engagement.",
     image: "/images/projects/joh.jpg",
     tag: ["All", "Founders"],
-    gitUrl: "mailto:johannes@workmates.live" target="_blank" rel="noopener noreferrer",
+    gitUrl: "mailto:johannes@workmates.live",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const dojosData = [
     description: "I'm from Texas and love learning about all things digital marketing and AI.",
     image: "/images/projects/jess.webp",
     tag: ["All", "Founders"],
-    gitUrl: "mailto:jess@workmates.live" target="_blank" rel="noopener noreferrer",
+    gitUrl: "mailto:jess@workmates.live",
     previewUrl: "/",
   },
 

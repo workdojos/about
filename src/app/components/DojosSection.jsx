@@ -11,7 +11,7 @@ const dojosData = [
     description: "Check out an easy way to save money on tours and learn about open-source tech around the world.",
     image: "/images/projects/travel.jpg",
     tag: ["All", "Websites"],
-    gitUrl: "https://TravelAgent.Live" target="_blank" rel="noopener noreferrer",
+    gitUrl: "https://TravelAgent.Live",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const dojosData = [
     description: "Check out our site built with Hugo with over 10k+ pasges of content, all hosted for free!",
     image: "/images/projects/workdojos.webp",
     tag: ["All", "Websites"],
-    gitUrl: "https://workdojos.com" target="_blank" rel="noopener noreferrer",
+    gitUrl: "https://workdojos.com",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const dojosData = [
     description: "Check out our Ghost blog (and save a whopping $25/mo by self-hosting it for FREE).",
     image: "images/projects/color.jpg",
     tag: ["All", "Websites"],
-    gitUrl: "https://blog.workdojos.com" target="_blank" rel="noopener noreferrer",
+    gitUrl: "https://blog.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -38,7 +38,7 @@ const dojosData = [
     description: "The amound of money you can save by self-hosting your own tech stack is amazing, chat with us!",
     image: "/images/projects/rc.webp",
     tag: ["All", "Chat"],
-    gitUrl: "https://chat.workmates.live" target="_blank" rel="noopener noreferrer",
+    gitUrl: "https://chat.workmates.live",
     previewUrl: "/",
   },
   {
@@ -47,7 +47,7 @@ const dojosData = [
     description: "Check out Youtube channgel built with AI.",
     image: "images/projects/multi.webp",
     tag: ["All", "AI"],
-    gitUrl: "https://youtube.com/@dojofans" target="_blank" rel="noopener noreferrer",
+    gitUrl: "https://youtube.com/@dojofans",
     previewUrl: "/",
   },
   {
@@ -56,7 +56,7 @@ const dojosData = [
     description: "Check out over 60+ self-hosted dashboards (get yours for free by signing up!.",
     image: "/images/projects/dash.jpg",
     tag: ["All", "Dashboards"],
-    gitUrl: "https://admins.workdojos.com" target="_blank" rel="noopener noreferrer",
+    gitUrl: "https://admins.workdojos.com",
     previewUrl: "/",
   },
   
