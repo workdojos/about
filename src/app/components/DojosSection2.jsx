@@ -20,6 +20,7 @@ const dojosData = [
     description: "SEO expert from Austria.",
     image: "/images/projects/joh.jpg",
     tag: ["All", "Founders"],
+    gitUrl: "https://www.linkedin.com/in/dojos/",
     previewUrl: "/",
   },
 
