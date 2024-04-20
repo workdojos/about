@@ -58,10 +58,10 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/team.jpg"
+              src="/images/dojofans.gif"
               className=".img-container"
-              width={520}
-              height={520}
+              width={480}
+              height={480}
             />
           </div>
         </motion.div>
