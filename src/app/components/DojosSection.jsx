@@ -8,7 +8,7 @@ const dojosData = [
   {
     id: 2,
     title: "WorkDojos",
-    description: "Check out our site built with Hugo with over 10k+ pasges of content, all hosted for free!",
+    description: "Check out our site built with Hugo with over 10k+ pages of content, all hosted for free!",
     image: "/images/projects/workdojos.webp",
     tag: ["All", "Websites"],
     gitUrl: "https://workdojos.com",
