@@ -19,9 +19,9 @@ const TAB_DATA = [
         <li>Began calling OpenAI&apos;s GPT 3.5 via API (now using 4 Turbo!) for content</li>
         <li>Launched a private Matrix Synapse chat server for Admins</li>
         <li>2023</li>
-        <li>Created and shared our private template library to subscribers (Next.js, React, Hugo, and more)</li>
+        <li>Created our private template library to subscribers (Next.js, React, Hugo, and more)</li>
         <li>Expanded our library of one-click installs to over 50 open-source apps</li>
-        <li>Expanded our self-hosted AI stack to include text-to-speech, image generation, and animation</li>
+        <li>Expanded AI offerings to include text-to-speech, image generation, and animation</li>
         <li>2024</li>        
         <li>Launched our second Youtube channel for AI animation: @Dojofans</li>
 
@@ -110,7 +110,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/cool.jpg" width={900} height={600}   />
+        <Image style={{ borderRadius: 16}}src="/images/cool.jpg" width={1350} height={900}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Hire Us</h2>
 
