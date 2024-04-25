@@ -59,7 +59,7 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/open3.png"
+              src="/images/cool.jpg"
               className=".img-container"
               width={480}
               height={480}
