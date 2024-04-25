@@ -9,7 +9,7 @@ const dojosData = [
     id: 1,
     title: "Jay",
     description: "I'm from Chicago and have been building with self-hosted open-source technology for 3 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in the open-source world.",
-    image: "/images/projects/jay.png",
+    image: "/images/projects/j2.png",
     tag: ["All", "Founders"],
     gitUrl: "https://jay.workmates.live",
     previewUrl: "/",
@@ -18,12 +18,20 @@ const dojosData = [
     id: 3,
     title: "Johannes",
     description: "I'm from Vienna and your go-to guy for all things content marketing and SEO.  I love helping others drive growth and engagement.  Chat with us today and see what open-source can do for you and your business.",
-    image: "/images/projects/johannes.png",
+    image: "/images/projects/jh2.png",
     tag: ["All", "Founders"],
     gitUrl: "mailto:support@workmates.live",
     previewUrl: "/",
   },
-
+  {
+    id: 3,
+    title: "Jess",
+    description: "I'm from Denmark and have been a Designer for 8 years.  I like creating digital assets for marketing, videos for hype, and lighting up online communities across social media. ",
+    image: "/images/projects/jess.png",
+    tag: ["All", "Founders"],
+    gitUrl: "mailto:support@workmates.live",
+    previewUrl: "/",
+  },
 ];
 
 const DojosSection = () => {

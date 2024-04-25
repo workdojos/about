@@ -9,25 +9,29 @@ const TAB_DATA = [
     id: "history",
     content: (
       <ul className="list-disc pl-2">
-        <li>Q2 2021 The Grand Experiment (200+ Wordpress sites deployed the largest .Live Network on the Web</li>
-        <li>Q3 2021 Deployed Workmates Rocket.chat server with a room for every profession</li>
-        <li>Q4 2021 Deployed Ghost blog with payments and newsletters built in</li>
-        <li>Q1 2022 Deployed dashboards for over 200+ professions</li>
-        <li>Q2 2022 Grew our subscriber base into triple digits for the first time</li>
-        <li>Q4 2022 Started to dabble with AI (GPT 3.5) </li>
-        <li>Q1 2023 Introduced a private Matrix server into the mix</li>
-        <li>Q2 2023 Introduced conversational AI into the mix</li>
-        <li>Q3 2023 Created our private template library (Next.js, React, Hugo, and more)</li>
-        <li>Q3 2023 Expanded our library of one-click installs to over 50 open-source apps</li>
-        <li>Q4 2023 Expanded our AI repertoire to include self-hosted text-to-speech, image generation, and animation</li>
-        <li>Q1 2024 Launched our second Youtube channel for AI animation: @Dojofans</li>
+        <li>2021</li>
+        <li>Deployed a prototype for the web&apos;s largest 'instant expert network'  </li>
+        <li>Launched Workmates chat server with a room for every profession</li>
+        <li>Added a new server for a Ghost blog with payments and newsletters built in</li>
+        <li>Spun up dashboards for over 200+ professions</li>
+        <li>Grew our subscriber base into triple digits for the first time</li>
+        <li>2022</li>
+        <li>Began calling OpenAI&apos;s GPT 3.5 via API (now using 4 Turbo!) for content</li>
+        <li>Launched a private Matrix Synapse chat server for Admins</li>
+        <li>2023</li>
+        <li>Created and shared our private template library to subscribers (Next.js, React, Hugo, and more)</li>
+        <li>Expanded our library of one-click installs to over 50 open-source apps</li>
+        <li>Expanded our self-hosted AI stack to include text-to-speech, image generation, and animation</li>
+        <li>2024</li>        
+        <li>Launched our second Youtube channel for AI animation: @Dojofans</li>
+
       
       </ul>
     ),
   },
   {
-    title: "Capabilities",
-    id: "capabilities",
+    title: "Skills",
+    id: "skills",
     content: (
       <ul className="list-disc pl-2">
         
@@ -77,8 +81,8 @@ const TAB_DATA = [
   },
 
     {
-      title: "Vision",
-      id: "vision",
+      title: "Values",
+      id: "values",
       content: (
         <ul className="list-disc pl-2">
           <li>Data privacy</li>
@@ -113,7 +117,7 @@ const AboutSection = () => {
 
 
           <p className="text-base lg:text-lg">
-            We soldier through some of the hardest tech challenges. 
+            We soldier through some of the hardest tech challenges in the open-source landscape.  Learn more: 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -131,19 +135,19 @@ const AboutSection = () => {
               Apps{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("capabilities")}
-              active={tab === "capabilities"}
+              selectTab={() => handleTabChange("skills")}
+              active={tab === "skills"}
             >
               {" "}
-              Capabilities{" "}
+              Skills{" "}
             </TabButton>
             
             <TabButton
-              selectTab={() => handleTabChange("vision")}
-              active={tab === "vision"}
+              selectTab={() => handleTabChange("values")}
+              active={tab === "values"}
             >
               {" "}
-              Vision{" "}
+              Values{" "}
             </TabButton>
           </div>
           <div className="mt-8">
