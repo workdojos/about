@@ -26,10 +26,16 @@ const HeroSection = () => {
                 1000,
                 "Driven",
                 1000,
-                "Easy-Going",
+                "Easy",
                 1000,
-
-                
+                "Agile",
+                1000,
+                "Creative",
+                1000,
+                "Affordable",
+                1000,
+                "Fun",
+                1000,                               
               ]}
               wrapper="span"
               speed={50}

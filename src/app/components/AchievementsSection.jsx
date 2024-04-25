@@ -17,12 +17,12 @@ const achievementsList = [
   },
   {
     metric: "Users",
-    value: "200",
+    value: "500",
     postfix: "+",
   },
   {
-    metric: "Languages",
-    value: "5",
+    metric: "WorkMates",
+    value: "50",
     postfix: "+",
   },
   {
