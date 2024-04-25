@@ -10,7 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>2021</li>
-        <li>Deployed a prototype for the web&apos;s largest 'instant expert network'  </li>
+        <li>Deployed a prototype for the web&apos;s largest instant expert network</li>
         <li>Launched Workmates chat server with a room for every profession</li>
         <li>Added a new server for a Ghost blog with payments and newsletters built in</li>
         <li>Spun up dashboards for over 200+ professions</li>
