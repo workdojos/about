@@ -74,7 +74,6 @@ const TAB_DATA = [
         <li>An audience</li>
         <li>Influence</li>
         <li>Change</li>
-        <li>Power</li>
       </ul>
       ),
   },  
@@ -101,7 +100,10 @@ const AboutSection = () => {
 
 
           <p className="text-base lg:text-lg">
-            We will subsidize the cost of your Dojo for a full 60 days.  No strings attached.  Give the many wonders of open-source tech a try.  You will be absolutely amazed at what you can do for yourself, your family, business, and overall digital well-being.
+            We will subsidize the cost of your Dojo for a full 60 days.  No strings attached.  
+          </p>
+          <p className="text-base lg:text-lg">
+            Give the many wonders of open-source tech a try.  You will be amazed at what you can build for yourself, your family, and your business.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

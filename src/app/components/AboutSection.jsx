@@ -35,20 +35,19 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         
         
-        <li>AI automation</li>
-        <li>Self-hosting apps and micro-services</li>
-        <li>Enabling businesses to run a single server for less than 15 bucks a month for 100s of users</li>
-        <li>Training</li>
-        <li>Learning & Development</li>
-        <li>Technical support</li>
+        <li>AI Automation</li>
         <li>AI image creation, text-to-speech, and animation</li>
-        <li>DevOps</li>
-        <li>Web-hosting</li>
+        <li>Self-hosted web app and micro-service deployments</li>
+        <li>Learning & Development</li>
+        <li>Technical Support</li>
         <li>Conversational AI</li>
         <li>Programmatic SMS</li>
-        <li>UI/UX Design</li>
         <li>Team-building</li>
-        <li>Community empowerment</li>
+        <li>UI/UX Design</li>
+        <li>Web-hosting</li>        
+        <li>Training</li>
+        <li>DevOps</li>
+
 
 
       </ul>
@@ -62,16 +61,16 @@ const TAB_DATA = [
     id: "apps",
     content: (
       <ul className="list-disc pl-2">
-        <li>Plex</li>
-        <li>Rocket.chat</li>
-        <li>Ghost</li>
-        <li>Organizr</li>
-        <li>Databag</li>
-        <li>Moodle</li>
-        <li>Nextcloud</li>
-        <li>Matrix Synapse</li>
-        <li>Dashboards (Home Assistant, Flame, Dashy)</li>
-        <li>ChatGPT integration</li>
+        <li>Plex / Jellyfin / MediaCMS</li>
+        <li>Rocket.chat / Zulip / Matrix Synapse</li>
+        <li>Ghost / Hugo / Next JS / React / WordPress </li>
+        <li>Organizr / Home Assistant / Flame / Dashy</li>
+        <li>Mastodon / FoundryVTT / Tandoor</li>    
+        <li>Databag / Wallabag / LinkDing</li>
+        <li>Immich / Mealie / Tandoor</li>
+        <li>Tailscale / Vaultwarden</li> 
+        <li>Nextcloud / OwnCloud</li>
+        <li>Moodle / Canvas</li>      
         <li>100&apos;s more</li>
       </ul>
     ),
@@ -83,12 +82,12 @@ const TAB_DATA = [
       content: (
         <ul className="list-disc pl-2">
           <li>Data privacy</li>
-          <li>Technological self-sufficiency</li>
-          <li>Ultimate sandboxing</li>
-          <li>Maximum value</li>
-          <li>Open-source</li>
-          <li>Affordable</li>
+          <li>Collaborative team-building</li>
+          <li>Efficient use of resources</li>
+          <li>Digital self-sufficiency</li>
           <li>Approachable</li>
+          <li>Open-source</li>
+          <li>Easy-going</li>          
         </ul>
       ),
     },
@@ -107,16 +106,14 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/opensource6.png" width={500} height={649}   />
+        <Image style={{ borderRadius: 16}}src="/images/opensource6.pn" width={500} height={649}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Open-Source Cool</h2>
 
 
 
           <p className="text-base lg:text-lg">
-            We soldier through some of the hardest tech challenges in the open-source landscape.  
-            <br></br>
-            Learn more: 
+            We soldier through the challenging open-source landscape so you can save money and build the next big thing.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

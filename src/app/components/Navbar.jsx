@@ -11,7 +11,7 @@ const navLinks = [
     path: "http://about.workdojos.com/#team",
   },
   {
-    title: "WorkDojos",
+    title: "Dojos",
     path: "http://workdojos.com",
   },
   {

@@ -8,7 +8,7 @@ const dojosData = [
   {
     id: 1,
     title: "Jay",
-    description: "I'm from Chicago and have been building with self-hosted open-source technology for 3 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in the open-source world.",
+    description: "I'm from Chicago and have been building with self-hosted open-source technology for 7 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in the open-source world.",
     image: "/images/projects/j2.png",
     tag: ["All", "Founders"],
     gitUrl: "https://jay.workmates.live",
