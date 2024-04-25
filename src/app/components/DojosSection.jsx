@@ -6,15 +6,6 @@ import { motion, useInView } from "framer-motion";
 
 const dojosData = [
   {
-    id: 1,
-    title: "Affiliate site",
-    description: "Check out an easy way to save money on tours and learn about open-source tech around the world.",
-    image: "/images/projects/travel.jpg",
-    tag: ["All", "Websites"],
-    gitUrl: "https://TravelAgent.Live",
-    previewUrl: "/",
-  },
-  {
     id: 2,
     title: "WorkDojos",
     description: "Check out our site built with Hugo with over 10k+ pasges of content, all hosted for free!",
@@ -34,7 +25,7 @@ const dojosData = [
   },
   {
     id: 9,
-    title: "Rocket.chat",
+    title: "Chat",
     description: "The amound of money you can save by self-hosting your own tech stack is amazing, chat with us!",
     image: "/images/projects/rc.webp",
     tag: ["All", "Chat"],
@@ -57,7 +48,16 @@ const dojosData = [
     description: "Check out over 60+ self-hosted dashboards (get yours for free by signing up!.",
     image: "/images/projects/dash.jpg",
     tag: ["All", "Dashboards"],
-    gitUrl: "https://admins.workdojos.com",
+    gitUrl: "https://dashboards.workdojos.com",
+    previewUrl: "/",
+  },
+  {
+    id: 1,
+    title: "Affiliate site",
+    description: "Check out an easy way to save money on tours and learn about open-source tech around the world.",
+    image: "/images/projects/travel.jpg",
+    tag: ["All", "Websites"],
+    gitUrl: "https://travelagent.Live",
     previewUrl: "/",
   },
   
