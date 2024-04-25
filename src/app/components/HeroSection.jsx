@@ -56,10 +56,10 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="lg:w-[400px] lg:h-[300px] relative ">
+          <div className="lg:w-[600px] lg:h-[600px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/cool.jpg"
+              src="/images/open3.png"
               className=".img-container"
               width={480}
               height={480}
