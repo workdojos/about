@@ -8,15 +8,15 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "About",
-    path: "https://about.workdojos.com/#about",
+    path: "http://about.workdojos.com/#about",
   },
   {
     title: "Team",
-    path: "https://about.workdojos.com/#team",
+    path: "http://about.workdojos.com/#team",
   },
   
   {
-    title: "Pricing",
+    title: "Sign Up",
     path: "https://blog.workdojos.com/#/portal/signup",
   },
   {

@@ -8,8 +8,8 @@ const dojosData = [
   {
     id: 1,
     title: "Jay",
-    description: "I'm from Chicago and I have on-the-ground experience across 3 continents.  I love to experiment with open-source tech and learn about other cultures.",
-    image: "/images/projects/j.jpg",
+    description: "I'm from Chicago and have been building with self-hosted open-source technology for 3 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in the open-source world.",
+    image: "/images/projects/jay.png",
     tag: ["All", "Founders"],
     gitUrl: "mailto:jay@workmates.live",
     previewUrl: "/",
@@ -17,19 +17,10 @@ const dojosData = [
   {
     id: 3,
     title: "Johannes",
-    description: "I'm from Austria and I love visualizing big ideas through technology and driving engagement.",
-    image: "/images/projects/joh.jpg",
+    description: "I'm from Vienna and your go-to guy for all things content marketing and SEO.  I love helping others drive growth and engagement.  Chat with us today and see what open-source can do for you and your business.",
+    image: "/images/projects/johannes.jpg",
     tag: ["All", "Founders"],
     gitUrl: "mailto:johannes@workmates.live",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Jess",
-    description: "I'm from Texas and love learning about all things digital marketing and AI.",
-    image: "/images/projects/jess.webp",
-    tag: ["All", "Founders"],
-    gitUrl: "mailto:jess@workmates.live",
     previewUrl: "/",
   },
 
