@@ -7,7 +7,7 @@ import { motion, useInView } from "framer-motion";
 const dojosData = [
   {
     id: 2,
-    title: "WorkDojos",
+    title: "Dojos",
     description: "Check out our site built with Hugo with over 10k+ pages of content, all hosted for free!",
     image: "/images/projects/workdojos.webp",
     tag: ["All", "Websites"],
@@ -35,7 +35,7 @@ const dojosData = [
   {
     id: 5,
     title: "Youtube",
-    description: "Check out Youtube channgel built with AI.",
+    description: "Check out Youtube channel built with AI and a cast of 16 AI characters.",
     image: "images/projects/multi.webp",
     tag: ["All", "AI"],
     gitUrl: "https://youtube.com/@dojofans",
@@ -44,7 +44,7 @@ const dojosData = [
   },
   {
     id: 9,
-    title: "",
+    title: "Dashboards",
     description: "Check out over 60+ self-hosted dashboards (get yours for free by signing up!.",
     image: "/images/projects/dash.jpg",
     tag: ["All", "Dashboards"],

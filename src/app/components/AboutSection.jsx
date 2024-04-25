@@ -19,9 +19,9 @@ const TAB_DATA = [
         <li>Began calling OpenAI&apos;s GPT 3.5 via API (now using 4 Turbo!) for content</li>
         <li>Launched a private Matrix Synapse chat server for Admins</li>
         <li>2023</li>
-        <li>Created our private template library to subscribers (Next.js, React, Hugo, and more)</li>
+        <li>Created our private template library for subscribers</li>
         <li>Expanded our library of one-click installs to over 50 open-source apps</li>
-        <li>Expanded AI offerings to include text-to-speech, image generation, and animation</li>
+        <li>Expanded our AI to include text-to-speech, images, and animation</li>
         <li>2024</li>        
         <li>Launched our second Youtube channel for AI animation: @Dojofans</li>
 
@@ -50,7 +50,6 @@ const TAB_DATA = [
         <li>UI/UX Design</li>
         <li>Team-building</li>
         <li>Community empowerment</li>
-        <li></li>
 
 
       </ul>
@@ -64,17 +63,16 @@ const TAB_DATA = [
     id: "apps",
     content: (
       <ul className="list-disc pl-2">
-        <li>Wordpress</li>
+        <li>Plex</li>
         <li>Rocket.chat</li>
         <li>Ghost</li>
         <li>Organizr</li>
         <li>Databag</li>
         <li>Moodle</li>
         <li>Nextcloud</li>
-        <li>Immich</li>
         <li>Matrix Synapse</li>
-        <li>5 different flavors of dashboards</li>
-        <li>ChatGPT integrations</li>
+        <li>Dashboards (Home Assistant, Flame, Dashy)</li>
+        <li>ChatGPT integration</li>
         <li>100&apos;s more</li>
       </ul>
     ),
@@ -110,7 +108,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/cool.jpg" width={1350} height={900}   />
+        <Image style={{ borderRadius: 16}}src="/images/cool.jpg" width={1800} height={1200}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Hire Us</h2>
 
