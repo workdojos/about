@@ -24,7 +24,7 @@ const navLinks = [
   },
   {
     title: "Contact",
-    path: "https://about.workdojos.com/#contact",
+    path: "http://about.workdojos.com/#contact",
   },
 ];
 

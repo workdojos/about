@@ -9,20 +9,16 @@ const TAB_DATA = [
     id: "history",
     content: (
       <ul className="list-disc pl-2">
-        <li>2021</li>
-        <li>Deployed prototype for the largest instant expert network</li>
-        <li>Launched chat with a room for every profession</li>
-        <li>Added a Ghost blog with payments and newsletters built in</li>
-        <li>Spun up dashboards for over 200+ professions</li>
-        <li>Grew our subscriber base into triple digits</li>
-        <li>2022</li>
-        <li>Integrated OpenAI and self-hosted Llama for content</li>
-        <li>Launched private Matrix Synapse server for Admins</li>
-        <li>2023</li>
-        <li>Created private template library for subscribers</li>
-        <li>Augmented AI with text-to-speech, images, and animation</li>
-        <li>2024</li>        
-        <li>Launched a Youtube channel for AI animations: @Dojofans</li>
+        <li>2021:  Deployed prototype for largest instant expert network</li>
+        <li>- Launched chat with a room for most every profession</li>
+        <li>- Added a Ghost blog with payments and newsletters built-in</li>
+        <li>- Spun up dashboards for over 200+ professions</li>
+        <li>2022:  Integrated OpenAI and self-hosted Llama for content</li>
+        <li>- Launched private Matrix Synapse server for Admins</li>
+        <li>2023:  Created private template library for subscribers</li>
+        <li>- Augmented our AI with text-to-speech, images, and animation</li>
+        <li>- Grew our subscriber base to over 500 users</li>       
+        <li>2024:  Launched a Youtube channel for AI animation demos</li>
 
       
       </ul>
