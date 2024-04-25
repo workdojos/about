@@ -10,20 +10,19 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>2021</li>
-        <li>Deployed a prototype for the web&apos;s largest instant expert network</li>
-        <li>Launched Workmates chat server with a room for every profession</li>
-        <li>Added a new server for a Ghost blog with payments and newsletters built in</li>
+        <li>Deployed prototype for the largest instant expert network</li>
+        <li>Launched chat with a room for every profession</li>
+        <li>Added a Ghost blog with payments and newsletters built in</li>
         <li>Spun up dashboards for over 200+ professions</li>
-        <li>Grew our subscriber base into triple digits for the first time</li>
+        <li>Grew our subscriber base into triple digits</li>
         <li>2022</li>
-        <li>Began calling OpenAI&apos;s GPT 3.5 via API (now using 4 Turbo!) for content</li>
-        <li>Launched a private Matrix Synapse chat server for Admins</li>
+        <li>Integrated OpenAI and self-hosted Llama for content</li>
+        <li>Launched private Matrix Synapse server for Admins</li>
         <li>2023</li>
-        <li>Created our private template library for subscribers</li>
-        <li>Expanded our library of one-click installs to over 50 open-source apps</li>
-        <li>Expanded our AI to include text-to-speech, images, and animation</li>
+        <li>Created private template library for subscribers</li>
+        <li>Augmented AI with text-to-speech, images, and animation</li>
         <li>2024</li>        
-        <li>Launched our second Youtube channel for AI animation: @Dojofans</li>
+        <li>Launched a Youtube channel for AI animations: @Dojofans</li>
 
       
       </ul>
@@ -108,14 +107,16 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/opensource.jpg" width={500} height={500}   />
+        <Image style={{ borderRadius: 16}}src="/images/opensource4.jpg" width={500} height={500}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">Hire Us</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Open-Source Cool</h2>
 
 
 
           <p className="text-base lg:text-lg">
-            We soldier through some of the hardest tech challenges in the open-source landscape.  Learn more: 
+            We soldier through some of the hardest tech challenges in the open-source landscape.  
+            <br></br>
+            Learn more: 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
