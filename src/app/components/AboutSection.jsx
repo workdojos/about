@@ -113,8 +113,15 @@ const AboutSection = () => {
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
+              selectTab={() => handleTabChange("skills")}
+              active={tab === "skills"}
+            >
+              {" "}
+              Skills{" "}
+            </TabButton>
+            <TabButton
               selectTab={() => handleTabChange("history")}
-              active={tab === "hisotry"}
+              active={tab === "history"}
             >
               {" "}
               History{" "}
@@ -125,15 +132,7 @@ const AboutSection = () => {
             >
               {" "}
               Apps{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
-            
+            </TabButton>           
             <TabButton
               selectTab={() => handleTabChange("values")}
               active={tab === "values"}
