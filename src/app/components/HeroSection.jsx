@@ -43,7 +43,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            We are self-hosters and tech enthusiasts who love to help others reign in their stack with free and open-source technology.
+            Reign in your stack with free and open-source technology.
           </p>
           <div>
             <Link
@@ -62,7 +62,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="lg:w-[600px] lg:h-[600px] relative ">
+          <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
               src="/images/openopen.jpg"
