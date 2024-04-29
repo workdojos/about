@@ -6,26 +6,24 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
+
   {
-    title: "Team",
-    path: "http://about.workdojos.com/#team",
+    title: "Blog",
+    path: "http://blog.workdojos.com",
   },
   {
     title: "Dojos",
     path: "http://workdojos.com",
   },
   {
-    title: "Blog",
-    path: "http://blog.workdojos.com",
+    title: "Chat",
+    path: "http://chat.workmates.live/channel/support",
   },
   {
     title: "Sign Up",
     path: "https://blog.workdojos.com/#/portal/signup",
   },
-  {
-    title: "Contact",
-    path: "http://about.workdojos.com/#contact",
-  },
+
 ];
 
 const Navbar = () => {
