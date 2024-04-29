@@ -14,6 +14,15 @@ const dojosData = [
     gitUrl: "https://jay.workmates.live",
     previewUrl: "/",
   },
+  {
+    id: 3,
+    title: "Johannes",
+    description: "I'm from Vienna and your go-to guy for all things content marketing and SEO.  I love helping others drive growth and engagement.  Chat with us today and see what open-source can do for you and your business.",
+    image: "/images/projects/joh2.png",
+    tag: ["All", "Founders"],
+    gitUrl: "mailto:support@workmates.live",
+    previewUrl: "/",
+  },
 ];
 
 const DojosSection = () => {
