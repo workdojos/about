@@ -44,10 +44,10 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="founder">
+    <section id="team">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Founder
+        Team
       </h2>
       <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         <ProjectTag
