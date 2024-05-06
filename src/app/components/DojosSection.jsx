@@ -8,8 +8,8 @@ const dojosData = [
   {
     id: 2,
     title: "Dojos",
-    description: "Check out our site built with Hugo with over 10k+ pages of content, all hosted for free!",
-    image: "/images/projects/workdojos.webp",
+    description: "Check out our static site built with Hugo.  It has over 10k+ pages of content and 5 web apps embedded into it.",
+    image: "/images/datd.webp",
     tag: ["All", "Websites"],
     gitUrl: "https://workdojos.com",
     previewUrl: "/",
@@ -17,7 +17,7 @@ const dojosData = [
   {
     id: 5,
     title: "Blog",
-    description: "Check out our Ghost blog (and save a whopping $25/mo by self-hosting it for FREE).",
+    description: "Check out our Ghost blog (save $25/month by self-hosting your own for FREE).",
     image: "images/projects/color.jpg",
     tag: ["All", "Websites"],
     gitUrl: "https://blog.workdojos.com",
@@ -26,7 +26,7 @@ const dojosData = [
   {
     id: 9,
     title: "Chat",
-    description: "The amound of money you can save by self-hosting your own tech stack is amazing, chat with us!",
+    description: "Private encrypted and self-hosted chat hub.  Please reach out!",
     image: "/images/projects/rc.webp",
     tag: ["All", "Chat"],
     gitUrl: "https://chat.workmates.live",
