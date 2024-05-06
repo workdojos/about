@@ -18,7 +18,7 @@ const dojosData = [
     id: 5,
     title: "Blog",
     description: "Check out our Ghost blog (save $25/month by self-hosting your own for FREE).",
-    image: "images/blogg3.webp",
+    image: "images/blogg4.webp",
     tag: ["All", "Websites"],
     gitUrl: "https://blog.workdojos.com",
     previewUrl: "/",
@@ -51,16 +51,6 @@ const dojosData = [
     gitUrl: "https://dashboards.workdojos.com",
     previewUrl: "/",
   },
-  {
-    id: 1,
-    title: "Affiliate site",
-    description: "Check out an easy way to save money on tours and learn about open-source tech around the world.",
-    image: "/images/travel.png",
-    tag: ["All", "Websites"],
-    gitUrl: "https://travelagent.Live",
-    previewUrl: "/",
-  },
-  
 ];
 
 const DojosSection = () => {
