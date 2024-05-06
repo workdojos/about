@@ -18,7 +18,7 @@ const dojosData = [
     id: 5,
     title: "Blog",
     description: "Check out our Ghost blog (save $25/month by self-hosting your own for FREE).",
-    image: "images/projects/blog.webp",
+    image: "images/projects/blogg2.webp",
     tag: ["All", "Websites"],
     gitUrl: "https://blog.workdojos.com",
     previewUrl: "/",
