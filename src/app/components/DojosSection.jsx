@@ -9,7 +9,7 @@ const dojosData = [
     id: 2,
     title: "Dojos",
     description: "Check out our static site built with Hugo with 5 web apps embedded right into it.",
-    image: "/images/chicago3.webp",
+    image: "/images/chicago4.webp",
     tag: ["All", "Websites", "Apps"],
     gitUrl: "https://workdojos.com",
     previewUrl: "/",
