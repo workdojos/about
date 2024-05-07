@@ -67,8 +67,8 @@ const HeroSection = () => {
               style={{borderRadius: 20}}
               src="/images/openopen.webp"
               className=".img-container"
-              width={480}
-              height={480}
+              width={600}
+              height={600}
             />
           </div>
         </motion.div>
