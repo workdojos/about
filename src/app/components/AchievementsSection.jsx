@@ -16,16 +16,17 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    metric: "Apps",
-    value: "65",
+    metric: "Templates",
+    value: "1000",
+    postfix: "+",
   },
   {
-    metric: "WorkMates",
-    value: "25",
+    metric: "Admins",
+    value: "12",
   },
   {
     metric: "Deployments",
-    value: "500",
+    value: "5000",
     postfix: "+",
   },
 
