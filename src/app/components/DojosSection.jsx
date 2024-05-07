@@ -63,7 +63,7 @@ const dojosData = [
   {
     id: 11,
     title: "Automation with AirTable",
-    description: "See a demo of one of our coolest ways to automate AI.",
+    description: "See a demo in AirTable for one of our coolest ways to automate AI.",
     image: "/images/air.webp",
     tag: ["All", "AI", "Apps", "Automation"],
     gitUrl: "https://1drv.ms/v/s!ArZMycleG714g6N0_p15_lTiGUlAvA?e=IO8tbj",
