@@ -105,12 +105,12 @@ const AboutSection = () => {
           <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/sunsun.gif"
+              src="/images/opens1.jpg"
               className=".img-container"
               width={480}
               height={480}
             />
-          </div>
+
           <h2 className="text-4xl font-bold text-white mb-4">Open-Source Cool</h2>
 
 
