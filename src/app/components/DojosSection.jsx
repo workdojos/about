@@ -37,7 +37,7 @@ const dojosData = [
     title: "Youtube",
     description: "Check out Youtube channel built with AI and a cast of 16 AI characters.",
     image: "images/dojofans3.webp",
-    tag: ["All", "AI"],
+    tag: ["All", "AI", "Automation"],
     gitUrl: "https://youtube.com/@dojofans",
     
     previewUrl: "/",
@@ -56,7 +56,16 @@ const dojosData = [
     title: "Custom GPTs",
     description: "Watch a demo of our innovative process for custom GPT development.",
     image: "/images/gpt3.webp",
-    tag: ["All", "AI", "Chat"],
+    tag: ["All", "AI", "Chat", "Automation"],
+    gitUrl: "https://1drv.ms/v/s!ArZMycleG714g6NzEktn34KsO01eYw?e=XruuzS",
+    previewUrl: "/",
+  },
+  {
+    id: 11,
+    title: "Automation",
+    description: "Watch a demo of our innovative process AI automation.",
+    image: "/images/air.webp",
+    tag: ["All", "AI", "Apps", "Automation"],
     gitUrl: "https://1drv.ms/v/s!ArZMycleG714g6N0_p15_lTiGUlAvA?e=IO8tbj",
     previewUrl: "/",
   },
@@ -109,6 +118,11 @@ const DojosSection = () => {
           onClick={handleTagChange}
           name="AI"
           isSelected={tag === "AI"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Automation"
+          isSelected={tag === "Automation"}
         />
         </div>
 
