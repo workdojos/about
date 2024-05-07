@@ -7,16 +7,16 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
-    title: "Team",
-    path: "http://about.workdojos.com/#team",
-  },
-  {
     title: "WorkDojos",
     path: "http://workdojos.com",
   },
   {
     title: "Blog",
     path: "http://blog.workdojos.com",
+  },
+  {
+    title: "Team",
+    path: "http://about.workdojos.com/#team",
   },
   {
     title: "Sign Up",

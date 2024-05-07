@@ -10,7 +10,7 @@ const TAB_DATA = [
     id: "history",
     content: (
       <ul className="list-disc pl-2">
-        <li>2021:  Deployed prototype for largest instant expert network</li>
+        <li>2021:  Deployed prototype for instant expert network</li>
         <li>- Launched chat with a room for most every profession</li>
         <li>- Added a Ghost blog with payments and newsletters built-in</li>
         <li>- Spun up dashboards for over 200+ professions</li>

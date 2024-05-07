@@ -8,7 +8,7 @@ const dojosData = [
   {
     id: 2,
     title: "Dojos",
-    description: "Check out our static site built with Hugo.  It has over 10k+ pages of content and 5 web apps embedded into it.",
+    description: "Check out our static site built with Hugo with 5 web apps embedded right into it.",
     image: "/images/chicago3.webp",
     tag: ["All", "Websites", "Apps"],
     gitUrl: "https://workdojos.com",
@@ -45,7 +45,7 @@ const dojosData = [
   {
     id: 9,
     title: "Dashboards",
-    description: "Check out over 60+ self-hosted dashboards (get yours for free by signing up!.",
+    description: "Check out our showroom of self-hosted dashboards for over 50 professions.",
     image: "/images/dashdash3.webp",
     tag: ["All", "Apps"],
     gitUrl: "https://dashboards.workdojos.com",
@@ -55,7 +55,7 @@ const dojosData = [
     id: 10,
     title: "Custom GPTs",
     description: "Watch a demo of our innovative process for custom GPT development.",
-    image: "/images/gpt.webp",
+    image: "/images/gpt2.webp",
     tag: ["All", "AI", "Chat"],
     gitUrl: "https://1drv.ms/v/s!ArZMycleG714g6N0_p15_lTiGUlAvA?e=IO8tbj",
     previewUrl: "/",
