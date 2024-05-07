@@ -105,10 +105,11 @@ const AboutSection = () => {
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
               style={{borderRadius: 20}}
-              src="/images/sunsun.gif"
+              src="/images/sun600.gif"
               className=".img-container"
-              width={480}
-              height={480}
+              width={600}
+              height={600}
+              unoptimized={true}
             />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Open-Source Cool</h2>
