@@ -102,15 +102,15 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-          <div className="lg:w-[786px] lg:h-[443px] relative ">
-            <Image
+        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <Image
               style={{borderRadius: 20}}
-              src="/images/opens1.jpg"
+              src="/images/sunsun.gif"
               className=".img-container"
               width={480}
               height={480}
             />
-
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Open-Source Cool</h2>
 
 
