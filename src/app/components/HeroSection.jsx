@@ -65,10 +65,10 @@ const HeroSection = () => {
           <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/openopen.webp"
+              src="/images/openopen2.webp"
               className=".img-container"
-              width={600}
-              height={600}
+              width={500}
+              height={500}
             />
           </div>
         </motion.div>
