@@ -62,13 +62,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="lg:w-[720px] lg:h-[1280px] relative ">
+          <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/history.mp4"
+              src="/images/history small.gif"
               className=".img-container"
-              width={500}
-              height={500}
+              width={416}
+              height={493}
+              unoptimized={true}
             />
           </div>
         </motion.div>
