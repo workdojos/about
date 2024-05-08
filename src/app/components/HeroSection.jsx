@@ -65,10 +65,10 @@ const HeroSection = () => {
           <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/flick3.gif"
+              src="/images/openopen2.webp"
               className=".img-container"
-              width={720}
-              height={720}
+              width={500}
+              height={500}
               unoptimized={true}
             />
           </div>
