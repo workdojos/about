@@ -63,7 +63,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="lg:w-[786px] lg:h-[443px] fixed ">
+          <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
               src="/images/history tv small.gif"
