@@ -43,8 +43,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Our mission:  To help you augment your stack 
-            with free and open-source technology.
+            Level up with free and open-source tech.
           </p>
           <div>
             <Link
@@ -66,10 +65,10 @@ const HeroSection = () => {
           <div className="lg:w-[786px] lg:h-[443px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/history tv small.gif"
+              src="/images/flick3.gif"
               className=".img-container"
-              width={416}
-              height={493}
+              width={720}
+              height={720}
               unoptimized={true}
             />
           </div>
