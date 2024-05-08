@@ -5,7 +5,7 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "The Why",
+    title: "Why",
     id: "why",
     content: (
       <ul className="list-disc pl-2">
@@ -108,7 +108,7 @@ const AboutSection = () => {
               active={tab === "why"}
             >
               {" "}
-              The Why{" "}
+              Why{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("objectives")}
@@ -129,7 +129,7 @@ const AboutSection = () => {
               active={tab === "future"}
             >
               {" "}
-              The Future{" "}
+              Future{" "}
             </TabButton>
           </div>
           <div className="mt-8">
