@@ -6,13 +6,18 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
-  {
-    title: "WorkDojos",
-    path: "http://workdojos.com",
-  },
+
   {
     title: "Blog",
     path: "http://blog.workdojos.com",
+  },
+  {
+    title: "Chat",
+    path: "http://chat.workmates.live",
+  },
+  {
+    title: "Dojos",
+    path: "http://workdojos.com",
   },
   {
     title: "Team",

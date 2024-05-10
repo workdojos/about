@@ -32,7 +32,7 @@ const HeroSection = () => {
                 1000,
                 "Creative",
                 1000,
-                "Affordable",
+                "Data-driven",
                 1000,
                 "Fun",
                 1000,                               
@@ -43,7 +43,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Level up with free and open-source tech.
+            Helping others unlock the open-source world.
           </p>
           <div>
             <Link

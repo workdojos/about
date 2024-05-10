@@ -8,8 +8,8 @@ const dojosData = [
   {
     id: 1,
     title: "Jay",
-    description: "I'm from Chicago and have been building with self-hosted open-source technology for 7 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in wild in the open-source world.",
-    image: "/images/projects/j2.png",
+    description: "I'm from the U.S. and have been building with self-hosted open-source technology for 7 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in wild in the open-source world.",
+    image: "/images/projects/jay5.webp",
     tag: ["All", "Founders"],
     gitUrl: "https://jay.workmates.live",
     previewUrl: "/",
@@ -17,8 +17,8 @@ const dojosData = [
   {
     id: 3,
     title: "Johannes",
-    description: "I'm from Vienna and your go-to guy for all things content marketing and SEO.  I love helping others drive growth and engagement.  Chat with us today and see what open-source can do for you and your business.",
-    image: "/images/projects/joh2.png",
+    description: "I'm from Austria and love content marketing, SEO, and using AI to help others.  Chat with us today and see what open-source technology can do for you and your digital dreams.",
+    image: "/images/projects/johannes5.webp",
     tag: ["All", "Founders"],
     gitUrl: "mailto:support@workmates.live",
     previewUrl: "/",
