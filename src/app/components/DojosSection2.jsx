@@ -10,17 +10,8 @@ const dojosData = [
     title: "Jay",
     description: "I'm from the U.S. and have been building with self-hosted open-source technology for 7 years.  I love helping others DIY innovative tech solutions using all the free nuts and bolts that exist out in wild in the open-source world.  Click the link to send me an e-mail.",
     image: "/images/jay8.png",
-    tag: ["All", "Founders"],
+    tag: ["All", "Founder"],
     gitUrl: "mailto:jay@workmates.live",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Johannes",
-    description: "I'm from Austria and love content marketing, SEO, and using AI to help others.  Chat with us today and see what open-source technology can do for you and your digital dreams.  Click the link to send me an e-mail.",
-    image: "/images/johannes8.png",
-    tag: ["All", "Founders"],
-    gitUrl: "mailto:johannes@workmates.live",
     previewUrl: "/",
   },
 ];
