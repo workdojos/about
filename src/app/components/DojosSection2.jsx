@@ -38,12 +38,12 @@ const DojosSection = () => {
     <section id="team">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        Team
+        Founder
       </h2>
       <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         <ProjectTag
           onClick={handleTagChange}
-          name="Founders"
+          name="Founder"
           isSelected={tag === "Images"}
         />
         </div>
