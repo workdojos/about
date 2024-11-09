@@ -12,10 +12,6 @@ const navLinks = [
     path: "http://blog.workdojos.com",
   },
   {
-    title: "Chat",
-    path: "http://chat.workmates.live",
-  },
-  {
     title: "Dojos",
     path: "http://workdojos.com",
   },
